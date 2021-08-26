@@ -10,6 +10,5 @@ namespace Timesheets.Models.Entities
         public Guid Id { get; set; }
         public string Name { get; set; }
 
-        public List<Client> Clients = new List<Client>();
     }
 }
